@@ -1,0 +1,52 @@
+.flex {
+  display: flex;
+  background-color: pink;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1160px;
+  height: 414.073px;
+  padding: 60px;
+}
+.card {
+  width: 366.667px;
+  height: 382.073px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  font-size: 1 rem;
+  padding: 32px 30px 45px 30px;
+  max-height: 207.781px;
+  line-height: 1.6em;
+}
+
+.button {
+  background-color: #0b669e;
+  border-radius: 50px;
+  width: 60%;
+  padding: 12px 32px;
+  margin-left: 25px;
+}
+
+.one {
+  background-color: #fdf8f1;
+}
+.two {
+  background-color: #f0f9ff;
+}
+
+.three {
+  background-color: #f5fbfb;
+}
+
+@media (max-width: 500px) {
+
+.flex {
+   flex-direction: column;
+   height: auto;
+}
+
+}
+
+
